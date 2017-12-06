@@ -61,7 +61,6 @@ playGame.prototype = {
         swipeDown.anchor.set(0.5);   
         this.infoGroup.add(swipeDown);
         game.input.onDown.add(this.beginSwipe, this);
-        scoreText = game.add.text(16,16 'score:0', {fontSize: '32px', fill: '#000'});
     },
     makeCard: function(cardIndex) {
         var card = game.add.sprite(gameOptions.cardSheetWidth * gameOptions.cardScale / -2, game.height / 2, "cards0");
